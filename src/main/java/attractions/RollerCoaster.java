@@ -6,7 +6,7 @@ import behaviours.ITicketed;
 import org.jetbrains.annotations.TestOnly;
 import people.Visitor;
 
-public class RollerCoaster  extends Attraction implements ISecurity, IReviewed, ITicketed {
+public class RollerCoaster  extends Attraction implements ISecurity, ITicketed {
 
     public RollerCoaster(String name, int rating) {
         super(name, rating);
